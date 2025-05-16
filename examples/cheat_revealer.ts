@@ -20,8 +20,7 @@ const client = axios.create({
   baseURL: "https://alyx.ro/api/v1",
   headers: {
     "Content-Type": "application/json",
-    "User-Agent": "api", // WARNING: This is a custom user agent, IT WILL NOT WORK WITHOUT IT
-    Authorization: key,
+    Authorization: key
   },
 });
 
